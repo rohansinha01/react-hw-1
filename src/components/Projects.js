@@ -7,6 +7,8 @@ const Projects = (props) => {
         <h2>Project {props.project}</h2>
         <h3>{props.title}</h3>
         <p>{props.description}</p>
+        <h4><a href={props.link}>Deployed Link</a></h4>
+        <h4><a href={props.github}>Github Link</a></h4>
         </span>
     </div>
 }
