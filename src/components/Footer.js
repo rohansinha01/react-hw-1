@@ -3,7 +3,8 @@ const Footer = (props) => {
 
     //The Components Returned JSX
     return <div className="Footer"> 
-    This is the Footer
+    <p id="footer-description">Rohan Sinha can be reached for freelance work by <br></br>emailing rohansinha01@gmail.com</p>
+
     </div>
 }
 
